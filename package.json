@@ -1,6 +1,6 @@
 {
 	"name": "@pretendonetwork/error-codes",
-	"version": "1.3.0",
+	"version": "2.0.0",
 	"description": "Translated error code information for the Wii U and 3DS",
 	"main": "index.js",
 	"types": "index.d.ts",
