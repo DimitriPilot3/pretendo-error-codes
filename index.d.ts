@@ -15,6 +15,6 @@ export interface ErrorInfo {
 	module: ModuleInfo;
 }
 
-export function getModuleInfo(sysmodule: string, locale: string): ModuleInfo;
-export function getErrorInfo(sysmodule: string, code: string, locale: string): ErrorInfo;
+export function getModuleInfo(sysmodule: string, locale: string): ModuleInfo | null;
+export function getErrorInfo(sysmodule: string, code: string, locale: string): ErrorInfo | null;
 export function getAllErrors(): string[];
